@@ -4,9 +4,9 @@ server:
 spring:
   data:
     mongodb:
-      user: test
-      password: passwordvalue
-      uri: mongodb://host:27017/CustomersDb
-      #database: Customersdb
-      #host: localhost
-      #port: 27017
+      #user: test
+      #password: passwordvalue
+      #uri: mongodb://host:27017/CustomersDb
+      database: Customersdb
+      host: localhost
+      port: 27017
